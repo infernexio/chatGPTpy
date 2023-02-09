@@ -1,0 +1,14 @@
+POST /v1/engines/text-davinci-003-playground/completions HTTP/2
+Host: api.openai.com
+Content-Type: application/json
+Accept: text/event-stream
+Authorization: Bearer {TOKEN GOT RID OF DUE TO SECURITY ISSUES}
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate
+Origin: https://platform.openai.com
+Openai-Organization: org-hGFdReCaMgq4hQewWXpcNvjE
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15
+Referer: https://platform.openai.com/
+Content-Length: 157
+
+{"prompt":"again","max_tokens":256,"temperature":0.7,"top_p":1,"frequency_penalty":0,"presence_penalty":0,"best_of":1,"echo":true,"logprobs":0,"stream":true}
